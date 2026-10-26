@@ -27,6 +27,6 @@ with tabs[2]:
     st.bar_chart(df['Volume'])
 
 with tabs[3]:
-    print('Hello World')
-    print('My name is Edward Cho and I am excited for AC420!')
+    st.subheader("Hello World")
+    st.subheader("My name is Edward Cho and I am excited for AC420!")
     
