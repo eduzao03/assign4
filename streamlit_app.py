@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # Print Title for the App
-st.title("Microsoft Stock Data Dashboard by Peter Wysocki")
+st.title("Microsoft Stock Data Dashboard by Edward Cho")
 
 # Read CSV file with stock data (CSV file must be in 'main' folder for your assignment 4 repository) 
 df = pd.read_csv("msft.csv")
@@ -25,3 +25,8 @@ with tabs[1]:
 with tabs[2]:
     st.subheader(f"Volume for MSFT")
     st.bar_chart(df['Volume'])
+
+with tabs[3]:
+    print('Hello World')
+    print('My name is Edward Cho and I am excited for AC420!')
+    
